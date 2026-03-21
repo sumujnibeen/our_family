@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>আমাদের পরিবার</title>
+  <link rel="icon" type="image/png" href="assets/images/fav.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Header -->
+<header class="page-header">
+  <div class="d-flex align-items-center justify-content-center gap-2">
+    <span class="ornament">✦</span>
+    <div>
+      <h1 class="mb-0">আমাদের পরিবার</h1>
+      <p class="header-sub mb-0">পারিবারিক বংশধারা</p>
+    </div>
+    <span class="ornament">✦</span>
+  </div>
+  <a href="admin.html" class="admin-btn">⚙ Admin</a>
+</header>
+
+<!-- Search Bar -->
+<div class="search-bar-wrap">
+  <div class="search-bar-inner">
+    <span class="search-icon">🔍</span>
+    <input
+      type="text"
+      id="mainSearch"
+      class="main-search-input"
+      placeholder="নাম লিখে খুঁজুন..."
+      oninput="searchMain()"
+      autocomplete="off"
+    >
+    <button class="search-clear" id="searchClear" onclick="clearSearch()" style="display:none">✕</button>
+  </div>
+  <div id="mainSearchResults" class="main-search-results"></div>
+</div>
+
+<!-- Tree -->
+<div class="tree-wrapper">
+  <div id="tree-root"></div>
+</div>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <p>বানিয়েছেন:
+    <a href="https://sumujnibeen.github.io/s.mujnibeen/"
+       target="_blank" rel="noopener">শাফীউল মুজনিবীন</a>
+  </p>
+</footer>
+
+<!-- Modal -->
+<div class="modal fade" id="personModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content custom-modal">
+      <div class="drag-handle"></div>
+      <div class="modal-header">
+        <div class="modal-top d-flex align-items-center gap-3 w-100">
+          <img id="modalPhoto" src="" alt="" class="modal-photo">
+          <div>
+            <span id="modalGenderBadge" class="gender-badge"></span>
+            <h5 id="modalName" class="modal-name mb-0"></h5>
+          </div>
+        </div>
+        <button type="button"
+          class="btn-close btn-close-white ms-2 flex-shrink-0"
+          data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <div id="modalFields" class="modal-fields"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Toast -->
+<div id="toast" class="toast-custom">নম্বর কপি হয়েছে ✓</div>
+
+<script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
