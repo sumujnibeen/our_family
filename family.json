@@ -40,7 +40,9 @@
       "gender": "male",
       "father": 1,
       "mother": null,
-      "spouse": [],
+      "spouse": [
+        137
+      ],
       "children": [
         3,
         4,
@@ -55,10 +57,10 @@
         13
       ],
       "mobile": null,
-      "address": null,
-      "profession": null,
+      "address": "নারায়ণকান্দি",
+      "profession": "মারা গেছেন",
       "workplace": null,
-      "photo": ""
+      "photo": "usup.png"
     },
     {
       "id": 3,
@@ -493,7 +495,7 @@
     },
     {
       "id": 32,
-      "name": "নাম রাখার আগেই মারা গেছে",
+      "name": "জিহাদ ( ১৩ দিন বয়সে মারা গেছে)",
       "gender": "male",
       "father": null,
       "mother": 6,
@@ -554,7 +556,7 @@
     },
     {
       "id": 34,
-      "name": "সজল (ছোট বয়সেই মারা গেছে)",
+      "name": "সজল আহম্মেদ মিল্টল (১০ দিন বয়সে মারা গেছে)",
       "gender": "male",
       "father": null,
       "mother": 6,
@@ -2132,6 +2134,22 @@
       "profession": null,
       "workplace": null,
       "photo": ""
+    },
+    {
+      "id": 137,
+      "name": "ছবিরন নেছা ফুলকুমারী",
+      "gender": "female",
+      "father": null,
+      "mother": null,
+      "spouse": [
+        2
+      ],
+      "children": [],
+      "mobile": null,
+      "address": "নারায়ণকান্দি",
+      "profession": "মারা গেছেন",
+      "workplace": null,
+      "photo": "chobiron.png"
     }
   ]
 }
