@@ -458,8 +458,7 @@
       ],
       "children": [
         35,
-        36,
-        121
+        36
       ],
       "mobile": null,
       "address": null,
@@ -1827,7 +1826,9 @@
       "spouse": [
         31
       ],
-      "children": [],
+      "children": [
+        31
+      ],
       "mobile": null,
       "address": null,
       "profession": null,
