@@ -41,6 +41,24 @@ body::before {
   pointer-events: none;
 }
 
+/* ===== Background — Mobile/PC আলাদা ===== */
+/* Mobile: 9:16 ছবি — এটা সব ছোট screen এ override করবে */
+@media (max-width: 768px) {
+  body {
+    background-image: url('../assets/images/bg-mobile.webp') !important;
+    background-position: center center !important;
+  }
+}
+
+/* PC: 16:9 ছবি — বড় screen এ fixed থাকবে */
+@media (min-width: 769px) {
+  body {
+    background-image: url('../assets/images/bg.webp') !important;
+    background-attachment: fixed !important;
+    background-position: center center !important;
+  }
+}
+
 body > * { position: relative; z-index: 1; }
 
 /* ===== Header ===== */
