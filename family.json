@@ -1535,7 +1535,9 @@
       "gender": "male",
       "father": null,
       "mother": 25,
-      "spouse": [],
+      "spouse": [
+        138
+      ],
       "children": [],
       "mobile": null,
       "address": null,
@@ -2154,6 +2156,22 @@
       "profession": "মারা গেছেন",
       "workplace": null,
       "photo": "chobiron.png"
+    },
+    {
+      "id": 138,
+      "name": "লিমা",
+      "gender": "female",
+      "father": null,
+      "mother": null,
+      "spouse": [
+        96
+      ],
+      "children": [],
+      "mobile": null,
+      "address": null,
+      "profession": null,
+      "workplace": null,
+      "photo": ""
     }
   ]
 }
