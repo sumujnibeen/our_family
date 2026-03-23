@@ -168,7 +168,6 @@
       "children": [
         84,
         85,
-        86,
         87
       ],
       "mobile": null,
@@ -1378,20 +1377,6 @@
     {
       "id": 85,
       "name": "হাসিব",
-      "gender": "male",
-      "father": 18,
-      "mother": null,
-      "spouse": [],
-      "children": [],
-      "mobile": null,
-      "address": null,
-      "profession": null,
-      "workplace": null,
-      "photo": ""
-    },
-    {
-      "id": 86,
-      "name": "মিম",
       "gender": "male",
       "father": 18,
       "mother": null,
